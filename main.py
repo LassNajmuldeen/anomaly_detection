@@ -2,7 +2,7 @@ from preprocessing import load_and_preprocess_data
 from models import train_and_evaluate_model
 
 def main():
-    print("Starting anomaly detection project...")
+    print("Starting anomaly detection project")
 
     # Preprocess data
     file_path = "FinancialMarketData-EWS.csv"
