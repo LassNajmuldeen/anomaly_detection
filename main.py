@@ -10,10 +10,8 @@ def main():
     file_path = "FinancialMarketData-EWS.csv"
     X_train, X_test, y_train, y_test = load_and_preprocess_data(file_path)
 
-    # Train and compare models
+    # Train and compare models then load best model and make predictions
     best_model = train_and_compare_models(X_train, X_test, y_train, y_test)
-
-    # Load best model and make predictions
     y_pred = best_model.predict(X_test)
 
     # Prediction based on all models
