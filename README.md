@@ -1,4 +1,4 @@
-# Market Anomaly Detection System
+# Financial Market Anomaly Detection System
 
 ## Overview
 The **Market Anomaly Detection System** is a machine learning project designed to identify and detect potential financial market anomalies or crises based on historical financial data. Using advanced preprocessing and multiple machine learning models, this project evaluates various metrics to predict and classify market events with high accuracy.
