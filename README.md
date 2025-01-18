@@ -1,6 +1,32 @@
-# Financial Market Anomaly Detection
+# Market Anomaly Detection System
 
-This project involves building an anomaly detection system that serves as an early warning mechanism for identifying potential financial market crashes before they occur. Using data and machine learning models, the system classifies market conditions and proposes investment strategies for risk mitigation and optimization. This program compares and evaluates three different models, logisitic regression, random forests, and gradient boosting and then chooses to save the one with the best overall accuracy based on the classification report.
+## Overview
+The **Market Anomaly Detection System** is a machine learning project designed to identify and detect potential financial market anomalies or crises based on historical financial data. Using advanced preprocessing and multiple machine learning models, this project evaluates various metrics to predict and classify market events with high accuracy.
 
 
-Tech Stack: python, pandas, scikit-learn, joblib
+## Features
+- **Data Preprocessing**:
+  - Handles missing values, normalization, and scaling.
+  - Splits the dataset into training and testing subsets.
+- **Model Comparison**:
+  - Implements multiple machine learning models (Logistic Regression, Random Forest, Gradient Boosting).
+  - Compares models based on accuracy and classification metrics.
+- **Visualization**:
+  - Provides performance metrics such as Precision, Recall, F1-Score, and Accuracy.
+- **Modular Design**:
+  - Cleanly organized code for scalability and reusability.
+
+
+## Tech Stack:
+- **Programming Language**: Python
+- **Libraries**:
+  - Data Handling: `pandas`, `numpy`
+  - Machine Learning: `scikit-learn`
+  - Visualization: `matplotlib`
+  - Model Persistence: `joblib`
+ 
+## Future Enhancements
+- Incorporate deep learning models for improved accuracy.
+- Develop an interactive dashboard for visualizing anomalies in real-time.
+- Explore hyperparameter tuning for better model performance.
+
